@@ -87,9 +87,9 @@ export default function BmiCalculator() {
             <b>Enter your height and weight to calculate your BMI</b>
           </CardDescription>
         </CardHeader>
-        <CardContent className="space-y-4 mt-5">
+        <CardContent className="space-y-2 mt-4">
           {/* Input for height */}
-          <div className="gap-6 flex text-center">
+          <div className="gap-4 flex text-center">
             <Label htmlFor="height" className="text-base font-bold">Height (cm)</Label>
             <Input
               id="height"
