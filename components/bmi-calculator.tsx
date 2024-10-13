@@ -97,7 +97,7 @@ export default function BmiCalculator() {
               placeholder="Enter your height"
               value={height ?? ""}
               onChange={handleHeightChange}
-              className="bg-slate-400 font-bold text-white w-24"
+              className="bg-slate-400 font-bold text-white w-20"
             />
           
           {/* Input for weight */}
@@ -109,7 +109,7 @@ export default function BmiCalculator() {
               placeholder="Enter your weight"
               value={weight ?? ""}
               onChange={handleWeightChange}
-              className="bg-slate-400 font-bold text-white w-24"
+              className="bg-slate-400 font-bold text-white w-20"
             />
           </div>
           {/* Button to calculate BMI */}
