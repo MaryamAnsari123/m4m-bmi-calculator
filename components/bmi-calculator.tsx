@@ -89,7 +89,7 @@ export default function BmiCalculator() {
         </CardHeader>
         <CardContent className="space-y-2 mt-4">
           {/* Input for height */}
-          <div className="gap-4 flex text-center">
+          <div className="gap-2 flex text-center">
             <Label htmlFor="height" className="text-base font-bold">Height (cm)</Label>
             <Input
               id="height"
@@ -97,7 +97,7 @@ export default function BmiCalculator() {
               placeholder="Enter your height"
               value={height ?? ""}
               onChange={handleHeightChange}
-              className="bg-slate-400 font-bold text-white w-28"
+              className="bg-slate-400 font-bold text-white w-24"
             />
           
           {/* Input for weight */}
@@ -109,7 +109,7 @@ export default function BmiCalculator() {
               placeholder="Enter your weight"
               value={weight ?? ""}
               onChange={handleWeightChange}
-              className="bg-slate-400 font-bold text-white w-28"
+              className="bg-slate-400 font-bold text-white w-24"
             />
           </div>
           {/* Button to calculate BMI */}
